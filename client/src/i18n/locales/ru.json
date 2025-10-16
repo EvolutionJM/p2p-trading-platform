@@ -1,0 +1,61 @@
+{
+  "common": {
+    "appName": "P2P Крипто Торговля",
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "success": "Успех",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "search": "Поиск",
+    "filter": "Фильтр",
+    "sort": "Сортировка",
+    "back": "Назад",
+    "next": "Далее",
+    "previous": "Предыдущий",
+    "submit": "Отправить",
+    "close": "Закрыть"
+  },
+  "nav": {
+    "home": "Главная",
+    "marketplace": "Рынок",
+    "trades": "Мои Сделки",
+    "orders": "Мои Ордера",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "login": "Вход",
+    "register": "Регистрация",
+    "logout": "Выход"
+  },
+  "auth": {
+    "login": "Вход",
+    "register": "Регистрация",
+    "email": "Email",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердить пароль",
+    "forgotPassword": "Забыли пароль?",
+    "dontHaveAccount": "Нет аккаунта?",
+    "alreadyHaveAccount": "Уже есть аккаунт?",
+    "loginSuccess": "Вход выполнен",
+    "registerSuccess": "Регистрация успешна",
+    "logoutSuccess": "Выход выполнен"
+  },
+  "marketplace": {
+    "title": "P2P Рынок",
+    "buy": "Купить",
+    "sell": "Продать",
+    "cryptocurrency": "Криптовалюта",
+    "fiatCurrency": "Фиатная валюта",
+    "paymentMethod": "Способ оплаты",
+    "price": "Цена",
+    "amount": "Количество",
+    "limit": "Лимит",
+    "available": "Доступно",
+    "createOrder": "Создать ордер",
+    "noOrders": "Нет доступных ордеров",
+    "filters": "Фильтры"
+  }
+}

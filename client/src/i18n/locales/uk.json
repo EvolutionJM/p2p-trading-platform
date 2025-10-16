@@ -1,0 +1,214 @@
+{
+  "common": {
+    "appName": "P2P Крипто Торгівля",
+    "loading": "Завантаження...",
+    "error": "Помилка",
+    "success": "Успіх",
+    "cancel": "Скасувати",
+    "confirm": "Підтвердити",
+    "save": "Зберегти",
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "search": "Пошук",
+    "filter": "Фільтр",
+    "sort": "Сортування",
+    "back": "Назад",
+    "next": "Далі",
+    "previous": "Попередній",
+    "submit": "Надіслати",
+    "close": "Закрити"
+  },
+  "nav": {
+    "home": "Головна",
+    "marketplace": "Ринок",
+    "trades": "Мої Угоди",
+    "orders": "Мої Ордери",
+    "profile": "Профіль",
+    "settings": "Налаштування",
+    "login": "Вхід",
+    "register": "Реєстрація",
+    "logout": "Вихід",
+    "wallet": "Гаманець",
+    "buyCrypto": "Купити криптовалюту",
+    "trading": "Торгівля",
+    "support": "Підтримка"
+  },
+  "megaMenu": {
+    "buyCrypto": {
+      "title": "Купити криптовалюту",
+      "p2p": {
+        "title": "P2P-трейдинг",
+        "desc": "Понад 60 фіатних валют і різні популярні місцеві способи оплати"
+      },
+      "quickBuy": {
+        "title": "Купівля в один клік",
+        "desc": "Купуйте криптовалюту за лічені секунди"
+      },
+      "deposit": {
+        "title": "Фіатний депозит",
+        "desc": "Поповніть баланс банківським переказом або картою"
+      },
+      "convert": {
+        "title": "Конвертувати",
+        "desc": "Швидка конвертація з нульовими комісіями"
+      }
+    },
+    "trading": {
+      "title": "Торгівля",
+      "portal": {
+        "title": "Торговий портал",
+        "desc": "Отримайте найновіші торгові можливості"
+      },
+      "spot": {
+        "title": "Спот",
+        "desc": "Торгуйте на спотовому ринку з кредитним плечем до 10x"
+      }
+    },
+    "wallet": {
+      "title": "Гаманець",
+      "overview": {
+        "title": "Огляд активів",
+        "desc": "Перегляд всіх ваших активів"
+      },
+      "deposit": {
+        "title": "Поповнити",
+        "desc": "Поповніть свій рахунок"
+      },
+      "withdraw": {
+        "title": "Вивести",
+        "desc": "Виведіть кошти на зовнішній гаманець"
+      }
+    },
+    "support": {
+      "title": "Підтримка",
+      "center": {
+        "title": "Центр підтримки",
+        "desc": "Знайдіть відповіді на ваші питання"
+      },
+      "referral": {
+        "title": "Партнерська програма",
+        "desc": "Отримуйте криптовалютні винагороди"
+      }
+    }
+  },
+  "auth": {
+    "login": "Вхід",
+    "register": "Реєстрація",
+    "email": "Email",
+    "username": "Ім'я користувача",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердити пароль",
+    "forgotPassword": "Забули пароль?",
+    "dontHaveAccount": "Немає облікового запису?",
+    "alreadyHaveAccount": "Вже є обліковий запис?",
+    "loginSuccess": "Вхід успішний",
+    "registerSuccess": "Реєстрація успішна",
+    "logoutSuccess": "Вихід виконано"
+  },
+  "marketplace": {
+    "title": "P2P Ринок",
+    "buy": "Купити",
+    "sell": "Продати",
+    "cryptocurrency": "Криптовалюта",
+    "fiatCurrency": "Фіатна валюта",
+    "paymentMethod": "Спосіб оплати",
+    "price": "Ціна",
+    "amount": "Кількість",
+    "limit": "Ліміт",
+    "available": "Доступно",
+    "createOrder": "Створити ордер",
+    "noOrders": "Немає доступних ордерів",
+    "filters": "Фільтри"
+  },
+  "order": {
+    "orderDetails": "Деталі ордера",
+    "type": "Тип",
+    "buy": "Купівля",
+    "sell": "Продаж",
+    "price": "Ціна",
+    "amount": "Кількість",
+    "minLimit": "Мін. ліміт",
+    "maxLimit": "Макс. ліміт",
+    "paymentMethods": "Способи оплати",
+    "terms": "Умови",
+    "autoReply": "Автовідповідь",
+    "status": "Статус",
+    "active": "Активний",
+    "inactive": "Неактивний",
+    "completed": "Завершено",
+    "cancelled": "Скасовано",
+    "createOrder": "Створити ордер",
+    "updateOrder": "Оновити ордер",
+    "cancelOrder": "Скасувати ордер",
+    "tradeNow": "Торгувати зараз"
+  },
+  "trade": {
+    "myTrades": "Мої угоди",
+    "tradeDetails": "Деталі угоди",
+    "buyer": "Покупець",
+    "seller": "Продавець",
+    "status": "Статус",
+    "pending": "Очікування",
+    "paymentPending": "Очікування оплати",
+    "paymentConfirmed": "Оплата підтверджена",
+    "completed": "Завершено",
+    "cancelled": "Скасовано",
+    "disputed": "Спірна",
+    "confirmPayment": "Підтвердити оплату",
+    "releaseCrypto": "Відпустити крипту",
+    "cancelTrade": "Скасувати угоду",
+    "initiateDispute": "Відкрити спір",
+    "chat": "Чат",
+    "sendMessage": "Надіслати повідомлення",
+    "rating": "Рейтинг",
+    "addRating": "Додати рейтинг"
+  },
+  "profile": {
+    "profile": "Профіль",
+    "stats": "Статистика",
+    "totalTrades": "Всього угод",
+    "completedTrades": "Завершених угод",
+    "rating": "Рейтинг",
+    "joinedDate": "Дата реєстрації",
+    "kycStatus": "Статус KYC",
+    "notSubmitted": "Не подано",
+    "pending": "Очікування",
+    "approved": "Схвалено",
+    "rejected": "Відхилено",
+    "verifyNow": "Верифікувати зараз"
+  },
+  "kyc": {
+    "title": "KYC Верифікація",
+    "description": "Завершіть KYC верифікацію для доступу до всіх функцій",
+    "documentType": "Тип документа",
+    "documentNumber": "Номер документа",
+    "uploadDocuments": "Завантажити документи",
+    "submit": "Надіслати KYC",
+    "status": "Статус",
+    "submitted": "Надіслано",
+    "underReview": "На розгляді",
+    "approved": "Схвалено",
+    "rejected": "Відхилено"
+  },
+  "settings": {
+    "title": "Налаштування",
+    "general": "Загальні",
+    "security": "Безпека",
+    "notifications": "Сповіщення",
+    "language": "Мова",
+    "currency": "Валюта",
+    "changePassword": "Змінити пароль",
+    "enable2FA": "Увімкнути 2FA",
+    "disable2FA": "Вимкнути 2FA",
+    "paymentMethods": "Способи оплати",
+    "wallets": "Гаманці",
+    "addPaymentMethod": "Додати спосіб оплати",
+    "addWallet": "Додати гаманець"
+  },
+  "bybit": {
+    "title": "Ордери Bybit",
+    "description": "Живі ордери з Bybit P2P ринку",
+    "sync": "Синхронізувати ордери",
+    "lastSync": "Остання синхронізація"
+  }
+}

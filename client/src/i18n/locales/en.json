@@ -1,0 +1,214 @@
+{
+  "common": {
+    "appName": "P2P Crypto Trading",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close"
+  },
+  "nav": {
+    "home": "Home",
+    "marketplace": "Marketplace",
+    "trades": "My Trades",
+    "orders": "My Orders",
+    "profile": "Profile",
+    "settings": "Settings",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "wallet": "Wallet",
+    "buyCrypto": "Buy Crypto",
+    "trading": "Trading",
+    "support": "Support"
+  },
+  "megaMenu": {
+    "buyCrypto": {
+      "title": "Buy Cryptocurrency",
+      "p2p": {
+        "title": "P2P Trading",
+        "desc": "Over 60 fiat currencies and various popular local payment methods"
+      },
+      "quickBuy": {
+        "title": "Quick Buy",
+        "desc": "Buy cryptocurrency in seconds"
+      },
+      "deposit": {
+        "title": "Fiat Deposit",
+        "desc": "Top up your balance via bank transfer or card"
+      },
+      "convert": {
+        "title": "Convert",
+        "desc": "Fast conversion with zero fees"
+      }
+    },
+    "trading": {
+      "title": "Trading",
+      "portal": {
+        "title": "Trading Portal",
+        "desc": "Get the latest trading opportunities"
+      },
+      "spot": {
+        "title": "Spot",
+        "desc": "Trade on the spot market with leverage up to 10x"
+      }
+    },
+    "wallet": {
+      "title": "Wallet",
+      "overview": {
+        "title": "Assets Overview",
+        "desc": "View all your assets"
+      },
+      "deposit": {
+        "title": "Deposit",
+        "desc": "Top up your account"
+      },
+      "withdraw": {
+        "title": "Withdraw",
+        "desc": "Withdraw funds to external wallet"
+      }
+    },
+    "support": {
+      "title": "Support",
+      "center": {
+        "title": "Support Center",
+        "desc": "Find answers to your questions"
+      },
+      "referral": {
+        "title": "Referral Program",
+        "desc": "Earn crypto rewards"
+      }
+    }
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "forgotPassword": "Forgot Password?",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "loginSuccess": "Login successful",
+    "registerSuccess": "Registration successful",
+    "logoutSuccess": "Logged out successfully"
+  },
+  "marketplace": {
+    "title": "P2P Marketplace",
+    "buy": "Buy",
+    "sell": "Sell",
+    "cryptocurrency": "Cryptocurrency",
+    "fiatCurrency": "Fiat Currency",
+    "paymentMethod": "Payment Method",
+    "price": "Price",
+    "amount": "Amount",
+    "limit": "Limit",
+    "available": "Available",
+    "createOrder": "Create Order",
+    "noOrders": "No orders available",
+    "filters": "Filters"
+  },
+  "order": {
+    "orderDetails": "Order Details",
+    "type": "Type",
+    "buy": "Buy",
+    "sell": "Sell",
+    "price": "Price",
+    "amount": "Amount",
+    "minLimit": "Min Limit",
+    "maxLimit": "Max Limit",
+    "paymentMethods": "Payment Methods",
+    "terms": "Terms",
+    "autoReply": "Auto Reply",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "createOrder": "Create Order",
+    "updateOrder": "Update Order",
+    "cancelOrder": "Cancel Order",
+    "tradeNow": "Trade Now"
+  },
+  "trade": {
+    "myTrades": "My Trades",
+    "tradeDetails": "Trade Details",
+    "buyer": "Buyer",
+    "seller": "Seller",
+    "status": "Status",
+    "pending": "Pending",
+    "paymentPending": "Payment Pending",
+    "paymentConfirmed": "Payment Confirmed",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "disputed": "Disputed",
+    "confirmPayment": "Confirm Payment",
+    "releaseCrypto": "Release Crypto",
+    "cancelTrade": "Cancel Trade",
+    "initiateDispute": "Initiate Dispute",
+    "chat": "Chat",
+    "sendMessage": "Send Message",
+    "rating": "Rating",
+    "addRating": "Add Rating"
+  },
+  "profile": {
+    "profile": "Profile",
+    "stats": "Statistics",
+    "totalTrades": "Total Trades",
+    "completedTrades": "Completed Trades",
+    "rating": "Rating",
+    "joinedDate": "Joined",
+    "kycStatus": "KYC Status",
+    "notSubmitted": "Not Submitted",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "verifyNow": "Verify Now"
+  },
+  "kyc": {
+    "title": "KYC Verification",
+    "description": "Complete KYC verification to unlock all features",
+    "documentType": "Document Type",
+    "documentNumber": "Document Number",
+    "uploadDocuments": "Upload Documents",
+    "submit": "Submit KYC",
+    "status": "Status",
+    "submitted": "Submitted",
+    "underReview": "Under Review",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "security": "Security",
+    "notifications": "Notifications",
+    "language": "Language",
+    "currency": "Currency",
+    "changePassword": "Change Password",
+    "enable2FA": "Enable 2FA",
+    "disable2FA": "Disable 2FA",
+    "paymentMethods": "Payment Methods",
+    "wallets": "Wallets",
+    "addPaymentMethod": "Add Payment Method",
+    "addWallet": "Add Wallet"
+  },
+  "bybit": {
+    "title": "Bybit Orders",
+    "description": "Live orders from Bybit P2P marketplace",
+    "sync": "Sync Orders",
+    "lastSync": "Last Sync"
+  }
+}

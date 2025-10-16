@@ -1,0 +1,61 @@
+{
+  "common": {
+    "appName": "P2P Comercio de Cripto",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "search": "Buscar",
+    "filter": "Filtro",
+    "sort": "Ordenar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "submit": "Enviar",
+    "close": "Cerrar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "marketplace": "Mercado",
+    "trades": "Mis Operaciones",
+    "orders": "Mis Órdenes",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "dontHaveAccount": "¿No tienes cuenta?",
+    "alreadyHaveAccount": "¿Ya tienes cuenta?",
+    "loginSuccess": "Inicio de sesión exitoso",
+    "registerSuccess": "Registro exitoso",
+    "logoutSuccess": "Sesión cerrada"
+  },
+  "marketplace": {
+    "title": "Mercado P2P",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "cryptocurrency": "Criptomoneda",
+    "fiatCurrency": "Moneda Fiduciaria",
+    "paymentMethod": "Método de Pago",
+    "price": "Precio",
+    "amount": "Cantidad",
+    "limit": "Límite",
+    "available": "Disponible",
+    "createOrder": "Crear Orden",
+    "noOrders": "No hay órdenes disponibles",
+    "filters": "Filtros"
+  }
+}
