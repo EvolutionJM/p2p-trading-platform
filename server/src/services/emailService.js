@@ -19,6 +19,12 @@ const generatePIN = () => {
 
 // Send verification email
 const sendVerificationEmail = async (email, pin, username) => {
+  // Skip email if not configured
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASSWORD) {
+    logger.warn('Email service not configured, skipping email send');
+    return true;
+  }
+  
   try {
     const mailOptions = {
       from: `"P2P Crypto Trading" <${process.env.EMAIL_USER}>`,
@@ -79,6 +85,12 @@ const sendVerificationEmail = async (email, pin, username) => {
 
 // Send KYC approval email
 const sendKYCApprovalEmail = async (email, username) => {
+  // Skip email if not configured
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASSWORD) {
+    logger.warn('Email service not configured, skipping email send');
+    return true;
+  }
+  
   try {
     const mailOptions = {
       from: `"P2P Crypto Trading" <${process.env.EMAIL_USER}>`,
