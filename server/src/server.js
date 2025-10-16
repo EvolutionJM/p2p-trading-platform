@@ -26,6 +26,9 @@ const paymentMethodRoutes = require('../routes/paymentMethodRoutes');
 const app = express();
 const server = http.createServer(app);
 
+// Trust proxy for Render.com
+app.set('trust proxy', 1);
+
 // Initialize Socket.IO
 const allowedOrigins = [
   'http://localhost:3000',
