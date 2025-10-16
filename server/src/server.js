@@ -34,12 +34,20 @@ const allowedOrigins = [
   process.env.FRONTEND_URL || 'http://localhost:3000'
 ].filter(Boolean);
 
+// Allow all Vercel preview deployments
+const corsOptions = {
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin) || origin.includes('.vercel.app')) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+};
+
 const io = socketIO(server, {
-  cors: {
-    origin: allowedOrigins,
-    methods: ['GET', 'POST'],
-    credentials: true
-  }
+  cors: corsOptions
 });
 
 // Connect to database
@@ -47,10 +55,7 @@ connectDB();
 
 // Security middleware
 app.use(helmet());
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true
-}));
+app.use(cors(corsOptions));
 app.use(mongoSanitize());
 app.use(xss());
 app.use(compression());
