@@ -30,8 +30,9 @@ const server = http.createServer(app);
 const allowedOrigins = [
   'http://localhost:3000',
   'http://127.0.0.1:3000',
-  'http://192.168.234.1:3000'
-];
+  'http://192.168.234.1:3000',
+  process.env.FRONTEND_URL || 'http://localhost:3000'
+].filter(Boolean);
 
 const io = socketIO(server, {
   cors: {
