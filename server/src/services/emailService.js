@@ -3,13 +3,15 @@ const logger = require('../utils/logger');
 
 // Create transporter
 const transporter = nodemailer.createTransport({
-  host: process.env.EMAIL_HOST || 'smtp.gmail.com',
+  host: process.env.EMAIL_HOST || 'smtp.sendgrid.net',
   port: process.env.EMAIL_PORT || 587,
   secure: false,
   auth: {
-    user: process.env.EMAIL_USER,
+    user: process.env.EMAIL_USER || 'apikey',
     pass: process.env.EMAIL_PASSWORD,
   },
+  connectionTimeout: 10000, // 10 seconds
+  greetingTimeout: 10000,
 });
 
 // Generate 6-digit PIN
